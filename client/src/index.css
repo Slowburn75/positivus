@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Pacifico&display=swap');
+
+:root{
+  --accent: #B9FF66;
+  --bg: #FFFFFF;
+  --dark: #0E0E10;
+}
+
+/* small helper */
+.btn-primary {
+  @apply bg-primary hover:bg-primary-600 text-black font-semibold rounded-2xl px-5 py-3;
+}
